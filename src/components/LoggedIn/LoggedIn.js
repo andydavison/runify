@@ -33,24 +33,26 @@ const LoggedIn = ({ userName, userId, spotifyConfig }) => {
   const handleClickGenerate = async (intensity) => {
     if (!recommendations[intensity].length) {
       let params = {
-        seed_tracks: topTrackIds.join(','),
+        seed_tracks: topTrackIds.join(","),
         min_energy: 0.4,
         min_danceability: 0.4,
-        target_energy: 1.0,
         target_danceability: 1.0,
       };
       switch (intensity) {
         case "gentle":
-          params.min_tempo = 120;
+          params.min_tempo = 110;
           params.max_tempo = 130;
+          params.target_energy = 0.65;
           break;
         case "moderate":
           params.min_tempo = 130;
-          params.max_tempo = 140;
+          params.max_tempo = 150;
+          params.target_energy = 0.85;
           break;
         case "hardcore":
           params.min_tempo = 150;
-          params.max_tempo = 160;
+          params.max_tempo = 180;
+          params.target_energy = 1;
           break;
       }
       const recsResponse = await axios.get(
