@@ -72,6 +72,7 @@ const LoggedIn = ({ userName, userId, spotifyConfig }) => {
     }
 
     setSelectedIntensity(intensity);
+    setPlaylistSaved(false);
   };
 
   const handleSavePlaylist = async (playlistName) => {
