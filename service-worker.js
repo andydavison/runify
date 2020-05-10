@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/runify/precache-manifest.78283a88c905c4841a9fac40954761ca.js"
+  "/runify/precache-manifest.a00521705ef9d4b4cfc8b7be3b1f6c36.js"
 );
 
 self.addEventListener('message', (event) => {
