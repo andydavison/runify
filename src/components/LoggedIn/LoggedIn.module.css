@@ -1,0 +1,41 @@
+.container {
+  background-color: #7768ae;
+  transition: background-color 0.5s ease;
+  padding: 2rem;
+}
+
+.intensityButtonsContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.content {
+  display: flex;
+}
+
+.textBlock, .textBlockIntro, .savedMessage {
+  margin-bottom: 1rem;
+}
+
+.textBlockIntro {
+  text-align: center;
+}
+
+.savedMessage {
+  font-family: "Racing Sans One", cursive;
+}
+
+.gentle {
+  background-color: #3BB273;
+}
+
+.moderate {
+  background-color: #E1BC29;
+  color: rgba(0,0,0,0.95)
+}
+
+.hardcore {
+  background-color: #E15554;
+}

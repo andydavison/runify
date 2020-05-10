@@ -1,0 +1,22 @@
+.container {
+  padding: 0.5rem 1rem;
+  display: inline-flex;
+  align-items: flex-start;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 100%;
+  }
+}
+
+.trackDetails {
+  text-align: left;
+  margin-left: 2rem;
+}
+
+.albumArt {
+  flex: 0 0 auto;
+}

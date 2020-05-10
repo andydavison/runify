@@ -1,0 +1,30 @@
+.button {
+  display: inline-block;
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2),
+    -10px -10px 20px rgba(255, 255, 255, 0.2);
+  font-family: "Racing Sans One", cursive;
+  padding: 1rem 2rem;
+  margin: 1rem;
+  text-decoration: none;
+  background: inherit;
+  color: inherit;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.button:hover,
+.button:focus,
+.active {
+  /* background: #0053ba; */
+  box-shadow: inset 10px 10px 20px rgba(0, 0, 0, 0.2),
+    inset -10px -10px 20px rgba(255, 255, 255, 0.2);
+}
+
+.button:disabled {
+  cursor: not-allowed;
+}

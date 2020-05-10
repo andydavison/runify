@@ -1,0 +1,21 @@
+.input {
+  font-family: inherit;
+  font-size: 1rem;
+  border: none;
+  border-radius: 1rem;
+  padding: 1rem;
+  box-shadow: inset 10px 10px 20px rgba(0, 0, 0, 0.2),
+    inset -10px -10px 20px rgba(255, 255, 255, 0.2);
+  flex: 9 0 auto;
+}
+
+.button {
+  flex: 1 0 auto;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
