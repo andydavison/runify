@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d268e0ed41bb9448acb8a96b8cfd1c9e",
+    "revision": "3ed2c5b83b08f8628d305301b2435767",
     "url": "/runify/index.html"
   },
   {
-    "revision": "e5ea78511c007ef98301",
+    "revision": "04d4e7ac1572bc6f1c1b",
     "url": "/runify/static/css/main.32e9300f.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/runify/static/js/2.24513566.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e5ea78511c007ef98301",
-    "url": "/runify/static/js/main.50c615ad.chunk.js"
+    "revision": "04d4e7ac1572bc6f1c1b",
+    "url": "/runify/static/js/main.c60f1cf7.chunk.js"
   },
   {
     "revision": "71f89a10f09f35974504",
