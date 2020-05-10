@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c02e16cf4dc92f0db27a3916dbf8b761",
+    "revision": "7674b05550f41b71d586a7ca8e1f7794",
     "url": "/runify/index.html"
   },
   {
