@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/runify/static/css/main.409e43ff.chunk.css",
-    "main.js": "/runify/static/js/main.91fea3e0.chunk.js",
-    "main.js.map": "/runify/static/js/main.91fea3e0.chunk.js.map",
+    "main.js": "/runify/static/js/main.f996062e.chunk.js",
+    "main.js.map": "/runify/static/js/main.f996062e.chunk.js.map",
     "runtime-main.js": "/runify/static/js/runtime-main.57906ded.js",
     "runtime-main.js.map": "/runify/static/js/runtime-main.57906ded.js.map",
     "static/js/2.24513566.chunk.js": "/runify/static/js/2.24513566.chunk.js",
     "static/js/2.24513566.chunk.js.map": "/runify/static/js/2.24513566.chunk.js.map",
     "index.html": "/runify/index.html",
-    "precache-manifest.c927bb26a92a89d1f404d4a0043b0b0a.js": "/runify/precache-manifest.c927bb26a92a89d1f404d4a0043b0b0a.js",
+    "precache-manifest.78283a88c905c4841a9fac40954761ca.js": "/runify/precache-manifest.78283a88c905c4841a9fac40954761ca.js",
     "service-worker.js": "/runify/service-worker.js",
     "static/css/main.409e43ff.chunk.css.map": "/runify/static/css/main.409e43ff.chunk.css.map",
     "static/js/2.24513566.chunk.js.LICENSE.txt": "/runify/static/js/2.24513566.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.57906ded.js",
     "static/js/2.24513566.chunk.js",
     "static/css/main.409e43ff.chunk.css",
-    "static/js/main.91fea3e0.chunk.js"
+    "static/js/main.f996062e.chunk.js"
   ]
 }
