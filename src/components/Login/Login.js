@@ -18,7 +18,7 @@ const handleLoginClick = () => {
   const redirect_uri =
     process.env.NODE_ENV === "development"
       ? "http://localhost:3000"
-      : "http://andydavison.github.io/runify"; // Your redirect uri
+      : "https://andydavison.github.io/runify"; // Your redirect uri
   const state = generateRandomString(16);
   localStorage.setItem("runify_state", state);
   const scope =
