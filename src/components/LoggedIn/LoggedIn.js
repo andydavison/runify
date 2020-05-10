@@ -35,7 +35,7 @@ const LoggedIn = ({ userName, userId, spotifyConfig }) => {
       let params = {
         seed_tracks: topTrackIds.join(","),
         min_energy: 0.4,
-        min_danceability: 0.4,
+        min_danceability: 0.5,
         target_danceability: 1.0,
       };
       switch (intensity) {
@@ -83,7 +83,7 @@ const LoggedIn = ({ userName, userId, spotifyConfig }) => {
       },
       spotifyConfig
     );
-    const trackURIs = recommendations.map(
+    const trackURIs = recommendations[selectedIntensity].map(
       (track) => "spotify:track:" + track.id
     );
     const addTracksResponse = axios.post(
